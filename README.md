@@ -23,7 +23,7 @@ The license file can be found in LICENSE.
 ## What is JSPWiki?
 
 JSPWiki is a simple (well, not anymore) WikiWiki clone, written in Java
-and JSP.  A WikiWiki is a website which allows anyone to participate
+and JSP.  A Wiki is a website that allows anyone to participate
 in its development.  JSPWiki supports all the traditional wiki features,
 as well as very detailed access control and security integration using JAAS. 
 
@@ -55,7 +55,7 @@ OPTIONAL:
 
 ## Really simple installation
 
-This section is meant for you, if you just want to have a really quick
+This section is meant for you if you just want to have a really quick
 install without many worries.  If you want to have a more complicated
 installation (with more power as to how to do things), 
 check out the "Install" section below.
@@ -117,7 +117,7 @@ setup and configuration suggestions.
 
 ## Using the Docker image
 
-_**Docker images are not official ASF releases but provided for convenience. 
+_**Docker images are not official ASF releases but are provided for convenience. 
 Recommended usage is always to build the source.**_
 
 The Apache JSPWiki Docker image is available at [Docker Hub](https://registry.hub.docker.com/r/apache/jspwiki/).
@@ -132,7 +132,7 @@ $ docker pull apache/jspwiki
 $ docker run -d -p 8080:8080 --name jspwiki apache/jspwiki
 ```
 
-Then point your browser at http://localhost:8080/, that should give you a working 
+Then point your browser at http://localhost:8080/, which should give you a working 
 wiki right away!
 
 See https://jspwiki-wiki.apache.org/Wiki.jsp?page=Docker for customizations and 
